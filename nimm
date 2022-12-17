@@ -1,0 +1,15 @@
+#include <iostream>  
+using namespace std;  
+int main()  
+{  
+long long int n,summa=0,m;       
+cin>>n;    
+while(n>0)    
+{    
+m=n%10;    
+summa=summa+m;    
+n=n/10;    
+}    
+cout<<summa<<endl;    
+return 0;  
+}
